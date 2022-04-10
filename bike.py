@@ -1,4 +1,3 @@
-with open("bike.log", 'a') as file:  
-    myCoolVariable = input("How far did u bike?\n")
-    
-    file.write(myCoolVariable +"\n")
+from logger import log_bike
+
+log_bike()

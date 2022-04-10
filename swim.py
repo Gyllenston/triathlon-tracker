@@ -1,4 +1,5 @@
-with open("swim.log", 'a') as file:  
-    myCoolVariable = input("How long did u swim?\n")
-    
-    file.write(myCoolVariable +"\n")
+from logger import log_swim
+
+log_swim()
+
+#ALL THE THINGS U SAID RUNNING THREW MA HEED
