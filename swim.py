@@ -1,4 +1,4 @@
-with open("swim.log", 'a') as assjuice:  
+with open("swim.log", 'a') as file:  
     myCoolVariable = input("How long did u swim?\n")
     
-    assjuice.write(myCoolVariable +"\n")
+    file.write(myCoolVariable +"\n")

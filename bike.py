@@ -1,4 +1,4 @@
-with open("bike.log", 'a') as assjuice:  
+with open("bike.log", 'a') as file:  
     myCoolVariable = input("How far did u bike?\n")
     
-    assjuice.write(myCoolVariable +"\n")
+    file.write(myCoolVariable +"\n")

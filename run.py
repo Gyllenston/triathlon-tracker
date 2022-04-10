@@ -1,4 +1,4 @@
-with open("run.log", 'a') as assjuice:  
+with open("run.log", 'a') as file:  
     myCoolVariable = input("How far did you run\n")
     
-    assjuice.write(myCoolVariable +"\n")
+    file.write(myCoolVariable +"\n")
